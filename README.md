@@ -3,6 +3,10 @@
 ## Installation
 
 ```bash
+# Clone repository with Dockerfile
+git clone https://github.com/WhereGroup/metador-docker.git
+cd metador-docker
+
 # Docker Image erstellen
 docker build --build-arg var_user=www-data  --tag "metador-image:latest" .
 
