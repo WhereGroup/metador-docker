@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-# Clone repository with Dockerfile
+# Clone repository
 git clone https://github.com/WhereGroup/metador-docker.git
 cd metador-docker
 
@@ -19,6 +19,9 @@ docker run --name metador-container \
 ```
 
 Aufruf im Browser [localhost:8000](http://localhost:8000)
+- Login: `root`  
+- Passwort: `metadordemo`  
+
 
 ## Deinstallation
 
