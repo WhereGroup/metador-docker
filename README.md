@@ -19,9 +19,7 @@ Aufruf im Browser [localhost:8000](http://localhost:8000)
 ## Deinstallation
 
 ```bash
-docker stop metador-container
-docker rm --force metador-container
-docker image rm --force metador-image
+docker rm --force metador-container && docker image rm --force metador-image
 ```
 
 ## Eine Shell öffnen
