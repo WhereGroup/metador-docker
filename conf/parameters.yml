@@ -1,0 +1,17 @@
+parameters:
+    database_driver: pdo_sqlite
+    database_host: null
+    database_port: null
+    database_name: null
+    database_user: null
+    database_password: null
+    database_path: '%kernel.root_dir%/../var/metador.db3'
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: Onjg08278WWlRB4ziLlBmuVVUxPQ9uDaJ67g3lyM
+    locale: de
+    api_access_ips: {  }
+    csw_access_ips: {  }
+    cache_enabled: false
